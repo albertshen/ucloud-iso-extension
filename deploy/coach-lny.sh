@@ -2,7 +2,7 @@
 set -x
 set -e
 
-cd ~/repository/x
+cd /data/repository/sha-coach-lny
 
 git checkout master
 
@@ -18,6 +18,6 @@ rsync -arvP --delete \
         --exclude=gulpfile.js \
         --exclude=config.rb \
         --exclude=*.sql \
-        . ~/sites/default/
+        . /data/sites/default/
 
 echo "1qazxsw2" | sudo -S service php5-fpm restart
