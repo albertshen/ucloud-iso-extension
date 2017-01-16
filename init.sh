@@ -4,9 +4,8 @@ set -e
 
 array[0]="/data/log/nginx"  
 array[1]="/data/log/php5"  
-array[2]="/data/webown/repository"
-array[3]="/data/webown/script"
-array[4]="/data/webown/sites/default"
+array[2]="/data/repository"
+array[4]="/data/sites/default"
 
 for path in ${array[@]};  
 do 
