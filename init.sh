@@ -7,7 +7,6 @@ array[0]="/data/log/nginx"
 array[1]="/data/log/php5"  
 array[2]="/data/repository"
 array[4]="/data/sites/default"
-array[4]="/data/mysql"
 
 for path in ${array[@]};  
 do 
