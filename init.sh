@@ -19,3 +19,9 @@ do
 	echo "$path is exist"
     fi 
 done 
+
+cp -R /var/lib/mysql/* /data/mysql
+
+echo "1qazxsw2" | sudo -S chown -R mysql:mysql /data/mysql
+
+echo "1qazxsw2" | sudo -S service mysql restart
