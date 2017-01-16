@@ -3,8 +3,7 @@ set -x
 set -e
 
 array[0]="/data/log/nginx"  
-array[1]="/data/log/php5"  
-array[2]="/data/repository"
+array[1]="/data/log/php5"
 array[4]="/data/sites/default"
 
 for path in ${array[@]};  
