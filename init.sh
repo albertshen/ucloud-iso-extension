@@ -20,10 +20,8 @@ do
     fi 
 done 
 
-su root
+echo "1qazxsw2" | sudo -S cp -R /var/lib/mysql/ /data/mysql
 
-cp -R /var/lib/mysql/* /data/mysql
+echo "1qazxsw2" | sudo -S chown -R mysql:mysql /data/mysql
 
-chown -R mysql:mysql /data/mysql
-
-service mysql restart
+echo "1qazxsw2" | sudo -S service mysql restart
