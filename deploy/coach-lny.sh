@@ -12,7 +12,7 @@ rsync -arvP --delete \
         --exclude=.git \
         --exclude=.gitignore \
         --exclude=readme.txt \
-        --exclude=assets/ \
+        --exclude=dist/asset/media \
         --exclude=Vagrantfile \
         --exclude=config/config.php \
         --exclude=gulpfile.js \
