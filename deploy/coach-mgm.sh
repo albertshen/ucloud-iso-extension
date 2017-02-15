@@ -2,7 +2,7 @@
 set -x
 set -e
 
-cd /data/repository/sha-coach-mgm
+cd /data/repository/sha-coach-runway
 
 git checkout master
 
