@@ -20,7 +20,7 @@ rsync -arvP --delete \
         --exclude=app/config/parameters.yml \
         . /data/sites/default/
 
-cd ~/sites/default/
+cd /data/sites/default/
 
 php bin/console assets:install
 php bin/console assetic:dump
