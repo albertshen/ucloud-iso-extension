@@ -18,7 +18,7 @@ rsync -arvP --delete \
         --exclude=composer.json \
         --exclude=composer.lock \
         --exclude=app/config/parameters.yml \
-        . ~/sites/default/
+        . /data/sites/default/
 
 cd ~/sites/default/
 
