@@ -5,7 +5,7 @@ set -e
 #PROD_SRV1=
 PROD_SRV2=
 
-cd ~/repository/x
+cd ~/repository/sha-petitbateau-wechat
 git checkout master
 
 git pull
