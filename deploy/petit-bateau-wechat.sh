@@ -22,8 +22,6 @@ rsync -arvP --delete \
 
 cd /data/sites/default/
 
-php bin/console assets:install
-php bin/console assetic:dump
 php bin/console cache:clear --env=prod
 
 echo \"1qazxsw2\" | sudo -S service php5-fpm restart
