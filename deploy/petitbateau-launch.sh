@@ -13,6 +13,7 @@ rsync -arvP --delete \
         --exclude=.gitignore \
         --exclude=README.MD \
         --exclude=Vagrantfile \
+        --exclude=web/upload \
         --exclude=config/config.php \
         . /data/sites/default/
 
