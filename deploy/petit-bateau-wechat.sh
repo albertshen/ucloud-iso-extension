@@ -17,6 +17,7 @@ rsync -arvP --delete \
         --exclude=Vagrantfile \
         --exclude=composer.json \
         --exclude=composer.lock \
+        --exclude=web/upload \
         --exclude=app/config/parameters.yml \
         . /data/sites/default/
 
