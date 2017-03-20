@@ -18,5 +18,6 @@ rsync -arvP --delete \
         --exclude=gulpfile.js \
         --exclude=package.json \
         --exclude=config.rb \
+        --exclude=upload \
         --exclude=*.sql \
         . /data/sites/default/
