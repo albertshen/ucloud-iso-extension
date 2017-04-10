@@ -2,7 +2,7 @@
 set -x
 set -e
 
-cd /data/repository/sha-mtu-wechat-online
+cd /data/repository/sha-mtu-online
 
 git checkout master
 
