@@ -2,8 +2,10 @@
 set -x
 set -e
 
-cd /data/repository/sha-mtu-online
+#PROD_SRV1=
+PROD_SRV2=
 
+cd /data/repository/sha-mtu-online
 git checkout master
 
 git pull
@@ -11,9 +13,14 @@ git pull
 rsync -arvP --delete \
         --exclude=.git \
         --exclude=.gitignore \
-        --exclude=README.MD \
+        --exclude=README.md \
         --exclude=Vagrantfile \
-        --exclude=config/config.php \
+        --exclude=composer.json \
+        --exclude=composer.lock \
+        --exclude=web/upload \
+        --exclude=app/config/parameters.yml \
         . /data/sites/default/
 
-echo "1q2w3e" | sudo -S service php7.0-fpm restart
+cd /data/sites/default/
+
+php bin/console cache:clear --env=prod
