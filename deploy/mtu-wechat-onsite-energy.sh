@@ -5,7 +5,7 @@ set -e
 #PROD_SRV1=
 PROD_SRV2=
 
-cd /data/repository/sha-mtu-online
+cd /data/repository/sha-mtu-wechat-onsite-energy
 git checkout master
 
 git pull
