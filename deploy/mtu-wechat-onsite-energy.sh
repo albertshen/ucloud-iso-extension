@@ -19,8 +19,8 @@ rsync -arvP --delete \
         --exclude=composer.lock \
         --exclude=web/upload \
         --exclude=app/config/parameters.yml \
-        . /data/sites/mtu_wechat_online/
+        . /data/sites/mtu_wechat_onsite_energy/
 
-cd /data/sites/mtu_wechat_online/
+cd /data/sites/mtu_wechat_onsite_energy/
 
 php bin/console cache:clear --env=prod
