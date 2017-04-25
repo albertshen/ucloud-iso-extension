@@ -4,7 +4,7 @@ set -e
 
 cd /data/repository/sha-coach-runway
 
-git checkout master
+git checkout samecase
 
 git pull
 
