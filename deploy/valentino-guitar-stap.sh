@@ -4,7 +4,7 @@ set -e
 
 cd /data/repository/sha-valentino-valentine
 
-git checkout samecase
+git checkout master
 
 git pull
 
