@@ -18,6 +18,4 @@ rsync -arvP --delete \
         --exclude=gulpfile.js \
         --exclude=config.rb \
         --exclude=*.sql \
-        . /data/sites/default/
-
-echo "1qazxsw2" | sudo -S service php5-fpm restart
+        . /data/sites/coach_lny/

@@ -16,6 +16,4 @@ rsync -arvP --delete \
         --exclude=build/assets/video \
         --exclude=config/config.php \
         --exclude=*.sql \
-        . /data/sites/default/
-
-echo "1qazxsw2" | sudo -S service php5-fpm restart
+        . /data/sites/coach_runway/
