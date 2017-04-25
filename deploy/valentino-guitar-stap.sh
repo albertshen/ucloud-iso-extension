@@ -4,7 +4,7 @@ set -e
 
 cd /data/repository/sha-valentino-valentine
 
-git checkout master
+git checkout samecase
 
 git pull
 
@@ -18,5 +18,3 @@ rsync -arvP --delete \
         --exclude=config.rb \
         --exclude=*.sql \
         . /data/sites/default/
-
-echo "1qazxsw2" | sudo -S service php5-fpm restart
