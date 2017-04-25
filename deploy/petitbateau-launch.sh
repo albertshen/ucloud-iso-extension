@@ -14,4 +14,4 @@ rsync -arvP --delete \
         --exclude=README.MD \
         --exclude=Vagrantfile \
         --exclude=config/config.php \
-        . /data/sites/default/
+        . /data/sites/petitbateau_launch/
