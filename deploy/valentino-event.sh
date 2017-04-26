@@ -17,7 +17,7 @@ rsync -arvP --delete \
         --exclude=Vagrantfile \
         --exclude=gulpfile.js \
         --exclude=package.json \
-        . /data/sites/default/event
+        . /data/sites/valentino_rosso/event
 
 cd /data/repository/sha-valentino-event/ppc
 
@@ -28,4 +28,4 @@ rsync -arvP --delete \
         --exclude=Vagrantfile \
         --exclude=gulpfile.js \
         --exclude=package.json \
-        . /data/sites/default/ppc
+        . /data/sites/valentino_rosso/ppc

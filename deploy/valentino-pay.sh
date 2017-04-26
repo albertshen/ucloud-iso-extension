@@ -21,4 +21,4 @@ rsync -arvP --delete \
         --exclude=event \
         --exclude=ppc \
         --exclude=*.sql \
-        . /data/sites/default/
+        . /data/sites/valentino_rosso/
