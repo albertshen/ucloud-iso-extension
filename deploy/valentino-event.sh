@@ -16,6 +16,7 @@ rsync -arvP --delete \
         --exclude=README.md \
         --exclude=Vagrantfile \
         --exclude=gulpfile.js \
+        --exclude=video \
         --exclude=package.json \
         . /data/sites/valentino_rosso/event
 
