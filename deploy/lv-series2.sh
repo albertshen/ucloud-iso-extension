@@ -18,4 +18,4 @@ rsync -arvP --delete \
         --exclude=ws/upload \
         --exclude=media/ \
         --exclude=ws/private/conf/config.ini.php \
-        . /data/sites/lvseries2/
+        . /data/sites/lv_series2/
