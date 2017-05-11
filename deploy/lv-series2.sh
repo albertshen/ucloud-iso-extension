@@ -3,7 +3,7 @@
 set -x
 set -e
 
-cd ~/repository/sha-lv-series2
+cd /data/repository/sha-lv-series2
 
 git checkout master
 
