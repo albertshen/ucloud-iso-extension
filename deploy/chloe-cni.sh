@@ -15,4 +15,5 @@ rsync -arvP --delete \
         --exclude=package.json \
         --exclude=Vagrantfile \
         --exclude=config/database.php \
+        --exclude=upload \
         . /data/sites/chloe_cni/
