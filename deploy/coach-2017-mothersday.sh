@@ -20,4 +20,4 @@ rsync -arvP --delete \
         --exclude=build/dist/media \
         --exclude=upload \
         --exclude=*.sql \
-        . /data/sites/default/
+        . /data/sites/coach_mothersday2017/
