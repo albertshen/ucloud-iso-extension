@@ -17,8 +17,8 @@ rsync -arvP --delete \
         --exclude=Vagrantfile \
         --exclude=sites/default/files \
         --exclude=sites/default/settings.php \
-        . ~/sites/sha_h5m/
+        . ~/sites/same_h5m/
 
-cd ~/sites/sha_h5m/
+cd ~/sites/same_h5m/
 
 drush cc all
