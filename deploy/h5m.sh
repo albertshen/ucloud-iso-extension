@@ -15,8 +15,8 @@ rsync -arvP --delete \
         --exclude=.vagrant \
         --exclude=README.md \
         --exclude=Vagrantfile \
-        --exclude=sites/default/files \
-        --exclude=sites/default/settings.php \
+        --exclude=drupal/sites/default/files \
+        --exclude=drupal/sites/default/settings.php \
         . /data/sites/same_h5m/
 
 cd /data/sites/same_h5m/
