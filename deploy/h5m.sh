@@ -19,6 +19,6 @@ rsync -arvP --delete \
         --exclude=drupal/sites/default/settings.php \
         . /data/sites/same_h5m/
 
-cd /data/sites/same_h5m/
+cd /data/sites/same_h5m/drupal
 
 drush cc all
