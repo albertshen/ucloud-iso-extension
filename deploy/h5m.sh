@@ -3,7 +3,7 @@
 set -x
 set -e
 
-cd ~/repository/sha-h5m
+cd /data/repository/sha-h5m
 
 git checkout master
 
@@ -17,8 +17,8 @@ rsync -arvP --delete \
         --exclude=Vagrantfile \
         --exclude=sites/default/files \
         --exclude=sites/default/settings.php \
-        . ~/sites/same_h5m/
+        . /data/sites/same_h5m/
 
-cd ~/sites/same_h5m/
+cd /data/sites/same_h5m/
 
 drush cc all
