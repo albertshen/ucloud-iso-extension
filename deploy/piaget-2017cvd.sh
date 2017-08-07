@@ -13,7 +13,7 @@ rsync -arvP --delete \
         --exclude=.gitignore \
         --exclude=README.MD \
         --exclude=Vagrantfile \
+        --exclude=upload \
+        --exclude=font \
         --exclude=config/config.php \
         . /data/sites/default/
-
-echo "1q2w3e" | sudo -S service php7.0-fpm restart
