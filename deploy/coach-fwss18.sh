@@ -11,6 +11,7 @@ git pull
 rsync -arvP --delete \
         --exclude=.git \
         --exclude=.gitignore \
-        --exclude=README.MD \
+        --exclude=README.md \
         --exclude=Vagrantfile \
+        --exclude=puppet \
         . /data/sites/default/
