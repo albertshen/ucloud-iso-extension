@@ -2,7 +2,7 @@
 set -x
 set -e
 
-cd /data/repository/sha-coach-2018fwss/dist
+cd /data/repository/sha-coach-2018fwss/build/dist
 
 git checkout master
 
