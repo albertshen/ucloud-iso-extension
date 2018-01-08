@@ -20,4 +20,4 @@ rsync -arvP --delete \
         --exclude=package.json \
         --exclude=config.rb \
         --exclude=db \
-        . /data/sites/coach-xmas2017/
+        . /data/sites/coach_xmas2017/
