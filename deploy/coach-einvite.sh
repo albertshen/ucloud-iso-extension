@@ -8,8 +8,6 @@ git checkout master
 
 git pull
 
-cd build/dist
-
 rsync -arvP --delete \
         --exclude=.git \
         --exclude=.gitignore \
